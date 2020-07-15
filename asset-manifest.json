@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-google-signin/static/js/main.dca1d644.chunk.js",
-    "main.js.map": "/react-google-signin/static/js/main.dca1d644.chunk.js.map",
+    "main.js": "/react-google-signin/static/js/main.cb565864.chunk.js",
+    "main.js.map": "/react-google-signin/static/js/main.cb565864.chunk.js.map",
     "runtime-main.js": "/react-google-signin/static/js/runtime-main.0bb74a82.js",
     "runtime-main.js.map": "/react-google-signin/static/js/runtime-main.0bb74a82.js.map",
-    "static/js/2.509d27d4.chunk.js": "/react-google-signin/static/js/2.509d27d4.chunk.js",
-    "static/js/2.509d27d4.chunk.js.map": "/react-google-signin/static/js/2.509d27d4.chunk.js.map",
+    "static/js/2.16940e73.chunk.js": "/react-google-signin/static/js/2.16940e73.chunk.js",
+    "static/js/2.16940e73.chunk.js.map": "/react-google-signin/static/js/2.16940e73.chunk.js.map",
     "index.html": "/react-google-signin/index.html",
-    "precache-manifest.cf138da878791adc3e42cd6dd61ed8aa.js": "/react-google-signin/precache-manifest.cf138da878791adc3e42cd6dd61ed8aa.js",
+    "precache-manifest.bfb0eaf5d06876b23644f8f1844286ad.js": "/react-google-signin/precache-manifest.bfb0eaf5d06876b23644f8f1844286ad.js",
     "service-worker.js": "/react-google-signin/service-worker.js",
-    "static/js/2.509d27d4.chunk.js.LICENSE.txt": "/react-google-signin/static/js/2.509d27d4.chunk.js.LICENSE.txt"
+    "static/js/2.16940e73.chunk.js.LICENSE.txt": "/react-google-signin/static/js/2.16940e73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0bb74a82.js",
-    "static/js/2.509d27d4.chunk.js",
-    "static/js/main.dca1d644.chunk.js"
+    "static/js/2.16940e73.chunk.js",
+    "static/js/main.cb565864.chunk.js"
   ]
 }
