@@ -3,7 +3,7 @@ export default (state={isSignIn:false},action)=>{
         case 'SIGN_IN':
             return {isSignIn:true,...action.payload};
         case 'SIGN_OUT':
-            return state;
+            return {isSignIn:false};
         default:
             return state;
     }

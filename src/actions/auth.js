@@ -15,14 +15,16 @@ const handleSignInError = err=>{
         break;
     }
   }
-export const signIn = authInstance=>{
+export const signIn = ()=>{
     return async dispatch=>{
         try {
-            let user = await authInstance.signIn();
+            let user = await window.gapi.auth2.getAuthInstance().signIn();
             dispatch({
                 type:'SIGN_IN',
                 payload:{
-                    Name:user.getBasicProfile().getName()
+                    Name:user.getBasicProfile().getName(),
+                    Id:user.getBasicProfile().getId(),
+                    Email:user.getBasicProfile().getEmail(),
                 }
             });
         } catch (e) {
@@ -31,15 +33,11 @@ export const signIn = authInstance=>{
     }
 }
 
-export const signOut = authInstance=>{
+export const signOut = ()=>{
     return async dispatch=>{
-        try {
-            await authInstance.signOut();
-            dispatch({
-                type:'SIGN_OUT',
-            });
-        } catch (e) {
-            handleSignInError(e.error)
-        }
+        await window.gapi.auth2.getAuthInstance().signOut();
+        dispatch({
+            type:'SIGN_OUT',
+        });
     }
 }
