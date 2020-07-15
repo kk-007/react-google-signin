@@ -12,26 +12,14 @@ import RootReducer from "./reducers";
 
 
 
-const init = ()=>{
-  return new Promise((res,rej)=>{
-    window.gapi.load('client:auth2',()=>{
-      window.gapi.auth2.init({
-        client_id:'210767855072-cratf6e4jb79atmqb11880oaigapoiih.apps.googleusercontent.com',
-        scope:'profile'
-      }).then(()=>res(true));
-    });
-  })
-}
-init().then(()=>{
-  ReactDOM.render(
-    <Provider store={createStore(RootReducer,compose(applyMiddleware(thunk),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </Provider>,
-    document.getElementById('root')
-  );
-});
+ReactDOM.render(
+  <Provider store={createStore(RootReducer,compose(applyMiddleware(thunk),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>,
+  document.getElementById('root')
+);
 
 
 // If you want your app to work offline and load faster, you can change
