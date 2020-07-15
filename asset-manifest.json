@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-google-signin/static/js/main.5497eda3.chunk.js",
-    "main.js.map": "/react-google-signin/static/js/main.5497eda3.chunk.js.map",
+    "main.js": "/react-google-signin/static/js/main.0d87b7b6.chunk.js",
+    "main.js.map": "/react-google-signin/static/js/main.0d87b7b6.chunk.js.map",
     "runtime-main.js": "/react-google-signin/static/js/runtime-main.0bb74a82.js",
     "runtime-main.js.map": "/react-google-signin/static/js/runtime-main.0bb74a82.js.map",
     "static/js/2.509d27d4.chunk.js": "/react-google-signin/static/js/2.509d27d4.chunk.js",
     "static/js/2.509d27d4.chunk.js.map": "/react-google-signin/static/js/2.509d27d4.chunk.js.map",
     "index.html": "/react-google-signin/index.html",
-    "precache-manifest.84ca1e0308968a0973285ead13bc5a5c.js": "/react-google-signin/precache-manifest.84ca1e0308968a0973285ead13bc5a5c.js",
+    "precache-manifest.7659de6418acc24f1000565588ad346c.js": "/react-google-signin/precache-manifest.7659de6418acc24f1000565588ad346c.js",
     "service-worker.js": "/react-google-signin/service-worker.js",
     "static/js/2.509d27d4.chunk.js.LICENSE.txt": "/react-google-signin/static/js/2.509d27d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0bb74a82.js",
     "static/js/2.509d27d4.chunk.js",
-    "static/js/main.5497eda3.chunk.js"
+    "static/js/main.0d87b7b6.chunk.js"
   ]
 }
